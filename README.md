@@ -61,8 +61,8 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-Git
-A GitHub account
+Git <br />
+A GitHub account <br />
 VS-Code
 <a href="https://github.com/microverseinc/linters-config/tree/master/html-css-js">HTML, CSS, and JavaScript linters</a>
 
@@ -74,8 +74,6 @@ cd my-folder
 git clone https://github.com/Sonikak004/react-math-magicians.git
 
 ### Install
-
-Install this project with:
 
 This project doesn't need to be installed
 
@@ -90,13 +88,9 @@ To run the project, execute the following command:
 
 ### Run tests
 
-To run tests, run the following command:
-
 To run tests, run the following command: `npm test`
 
 ### Deployment
-
-You can deploy this project using:
 
 You can deploy this project by using VS-code and injecting it to a browser through a local live server.
 
@@ -117,8 +111,6 @@ You can deploy this project by using VS-code and injecting it to a browser throu
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-
-> Describe 1 - 3 features you will add to the project.
 
 - [ ] **Progress Tracking**
 - [ ] **Leaderboard**
@@ -147,8 +139,6 @@ If you like this project please give me a star 🌟
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-> Give credit to everyone who inspired your codebase.
 
 I would like to thank <a href="https://www.microverse.org/">Microverse</a> for providing a platform to create such projects.
 
