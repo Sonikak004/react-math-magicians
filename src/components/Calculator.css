@@ -1,5 +1,5 @@
 .calculator {
-  width: 300px;
+  width: 500px;
   margin: 0 auto;
   background-color: #f0f0f0;
   border-radius: 5px;
@@ -9,13 +9,14 @@
 }
 
 .display {
-  background-color: #666161;
+  background-color: #858693;
+  color: #fff;
   text-align: right;
   padding: 10px;
-  font-size: 24px;
+  font-size: 30px;
   border-radius: 3px;
   width: 92%;
-  margin-left: 11px;
+  margin-left: 19px;
   box-sizing: border-box;
 }
 
@@ -40,7 +41,7 @@
 }
 
 .button {
-  background-color: #fff;
+  background-color: #e0e0e0;
   border: 1px solid #ccc;
   padding: 15px;
   font-size: 18px;
@@ -60,11 +61,11 @@
 }
 
 .right-but {
-  background-color: rgb(248, 111, 12);
+  background-color: #f5913e;
 }
 
 .button:hover {
-  background-color: #b8b8b8;
+  background-color: #858693;
 }
 
 .button:active {
