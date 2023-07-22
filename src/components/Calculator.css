@@ -4,12 +4,22 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 
 .keypad {
   width: 40%;
   display: grid;
   grid-template-rows: repeat(6, 1fr);
+}
+
+.quote {
+  width: 51%;
+  text-align: center;
+  background: #f5913e;
+  color: #fff;
+  margin-bottom: 20px;
+  border-radius: 9px 9px 9px 9px;
 }
 
 .row {
