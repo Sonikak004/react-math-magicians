@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import calculate from '../logic/calculate';
-import QuoteComponent from './QuoteComponent';
 import './Calculator.css';
 
 export default function Calculator() {
@@ -43,7 +42,6 @@ export default function Calculator() {
 
   return (
     <div className="calculator">
-      <QuoteComponent />
       <div className="keypad">
         <div className="row">
           <div className="display">{nextValue || operationValue || totalValue || 0}</div>
