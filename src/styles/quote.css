@@ -1,0 +1,15 @@
+.quote {
+  width: 51%;
+  height: 30vh;
+  display: flex;
+  position: relative;
+  left: 24%;
+  align-items: center;
+}
+
+.font {
+  font-weight: bold;
+  color: #127bd9;
+  text-align: center;
+  font-size: 25px;
+}

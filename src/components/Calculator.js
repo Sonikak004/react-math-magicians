@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import calculate from '../logic/calculate';
-import './Calculator.css';
+import '../styles/Calculator.css';
 
-export default function Calculator() {
+const Calculator = () => {
   const initialCalculatorState = {
     next: null,
     operation: null,
@@ -42,6 +42,7 @@ export default function Calculator() {
 
   return (
     <div className="calculator">
+      <h2 className="calc-heading"> Lets do some Math!</h2>
       <div className="keypad">
         <div className="row">
           <div className="display">{nextValue || operationValue || totalValue || 0}</div>
@@ -78,4 +79,6 @@ export default function Calculator() {
       </div>
     </div>
   );
-}
+};
+
+export default Calculator;

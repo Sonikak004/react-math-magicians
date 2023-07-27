@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import '../styles/quote.css';
 
 const QuoteComponent = () => {
   const [quote, setQuote] = useState(null);
@@ -30,14 +31,14 @@ const QuoteComponent = () => {
   }, []);
 
   if (loading) {
-    return <div>Loading...</div>;
+    return <div className="quote font">Loading...</div>;
   }
 
   if (error) {
     return <div>{error}</div>;
   }
 
-  return <div className="quote">{quote}</div>;
+  return <div className="quote font"><p>{quote}</p></div>;
 };
 
 export default QuoteComponent;
