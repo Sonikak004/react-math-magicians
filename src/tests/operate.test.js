@@ -1,8 +1,8 @@
 import operate from '../logic/operate';
 
-const test = { total: '400', next: '200', operation: '+' };
-describe('operate test', () => {
-  it('2 + 4 = 6', () => {
-    expect(operate('2', '4', '+')).toStrictEqual(test, '6');
+describe('operate function tests', () => {
+  it('should perform addition correctly', () => {
+    expect(operate('2', '4', '+')).toBe('6');
+    expect(operate('0', '10', '+')).toBe('10');
   });
 });
