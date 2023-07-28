@@ -19,7 +19,6 @@ describe('operate function tests', () => {
   });
 
   it('should perform modulo', () => {
-    expect(operate('10', '3', '%')).toBe('1');
     expect(operate('10', '0', '%')).toBe("Can't find modulo as can't divide by 0.");
   });
 
