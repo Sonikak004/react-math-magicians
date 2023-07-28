@@ -31,14 +31,14 @@ const QuoteComponent = () => {
   }, []);
 
   if (loading) {
-    return <div className="quote font">Loading...</div>;
+    return <div className="quote font" data-testid="quote">Loading...</div>;
   }
 
   if (error) {
     return <div>{error}</div>;
   }
 
-  return <div className="quote font"><p>{quote}</p></div>;
+  return <div className="quote font" data-testid="quote-text"><p>{quote}</p></div>;
 };
 
 export default QuoteComponent;

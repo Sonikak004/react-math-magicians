@@ -45,7 +45,7 @@ const Calculator = () => {
       <h2 className="calc-heading"> Lets do some Math!</h2>
       <div className="keypad">
         <div className="row">
-          <div className="display">{nextValue || operationValue || totalValue || 0}</div>
+          <div className="display" data-testid="display">{nextValue || operationValue || totalValue || 0}</div>
         </div>
         <div className="row">
           <Button className="item" value="AC" handleClick={handleButtonClick} />
