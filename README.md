@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <h1><b>Math Magicians</b></h1>
+  <h1><b>Math Magician</b></h1>
 
 </div>
 
@@ -13,6 +13,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+    - - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Setup](#setup)
@@ -41,6 +42,12 @@
     <li><a href="https://reactjs.org/">React.js</a></li>
   </ul>
 </details>
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+[Live Demo](https://react-calculator-5q3x.onrender.com/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- Features -->
 
